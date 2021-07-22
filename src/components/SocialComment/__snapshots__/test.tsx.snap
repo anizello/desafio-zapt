@@ -20,6 +20,8 @@ exports[`<SocialComment /> should render the heading 1`] = `
   flex-direction: column;
   gap: 1.6rem;
   padding: 2.4rem 1.6rem;
+  -webkit-break-inside: avoid;
+  break-inside: avoid;
   background-color: #e9f5fe;
   border-radius: 0.4rem;
 }

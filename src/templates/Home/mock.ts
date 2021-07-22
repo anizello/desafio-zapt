@@ -7,33 +7,9 @@ export const socialCommentsMock = [
   },
   {
     comment:
-      'Nunca tinha achado os produtos na Lush depois que ela saiu do Brasil.. só a Zapt para conseguir importalos a preço mais barato do que vendiam aqui! Muito obrigado, recomendo sempre a todos os amigos.',
-    image: '/img/users/liciar.jpg',
-    name: '@LiciaR.'
-  },
-  {
-    comment:
-      'Achei uma promoção incrível de roupinha de bebê, foi o que salvou o enxoval do Pedro.',
-    image: '/img/users/gust.jpg',
-    name: '@gust'
-  },
-  {
-    comment:
       'Estava precisando achar algum lugar que vendia produtos que vêem direto da fazenda... a Zapt salvou.. e ainda paguei um preço muito mais barato que supermecado 🙌',
     image: '/img/users/paolac.jpg',
     name: '@paolaC'
-  },
-  {
-    comment:
-      'Ontem chegou uma pizza que comprei na Zapt e me lembrou as que minha avó fazia... sensacional!',
-    image: '/img/users/shitz.jpg',
-    name: '@shitz'
-  },
-  {
-    comment:
-      'Meu dono finalmente conseguiu achar uma comida que eu gosto! Agora vou conseguir engordar e ser feliz.',
-    image: '/img/users/cookie.jpg',
-    name: '@Cookie'
   },
   {
     comment:
@@ -43,9 +19,33 @@ export const socialCommentsMock = [
   },
   {
     comment:
+      'Nunca tinha achado os produtos na Lush depois que ela saiu do Brasil.. só a Zapt para conseguir importalos a preço mais barato do que vendiam aqui! Muito obrigado, recomendo sempre a todos os amigos.',
+    image: '/img/users/liciar.jpg',
+    name: '@LiciaR.'
+  },
+  {
+    comment:
+      'Ontem chegou uma pizza que comprei na Zapt e me lembrou as que minha avó fazia... sensacional!',
+    image: '/img/users/shitz.jpg',
+    name: '@shitz'
+  },
+  {
+    comment:
       'Nossa cada dia tem uma oferta mais legal do que a outra.. Além de produtos de qualidade o preço é imbatível',
     image: '/img/users/rafael.jpg',
     name: '@rafael'
+  },
+  {
+    comment:
+      'Achei uma promoção incrível de roupinha de bebê, foi o que salvou o enxoval do Pedro.',
+    image: '/img/users/gust.jpg',
+    name: '@gust'
+  },
+  {
+    comment:
+      'Meu dono finalmente conseguiu achar uma comida que eu gosto! Agora vou conseguir engordar e ser feliz.',
+    image: '/img/users/cookie.jpg',
+    name: '@Cookie'
   },
   {
     comment:

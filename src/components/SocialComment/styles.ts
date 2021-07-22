@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     gap: ${theme.spacings.base};
 
     padding: ${theme.spacings.lg} ${theme.spacings.base};
+    break-inside: avoid;
 
     background-color: ${theme.colors.backgroundLight};
     border-radius: ${theme.border.radius};

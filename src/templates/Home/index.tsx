@@ -1,5 +1,3 @@
-import Masonry from 'react-masonry-css'
-
 import Base from 'templates/Base'
 import Button from 'components/Button'
 import Callout from 'components/Callout'
@@ -10,12 +8,6 @@ import UserCommentSlider from 'components/UserCommentSlider'
 export type HomeTemplateProps = {
   socialComments?: SocialCommentProps[]
   userComments?: UserCommentProps[]
-}
-
-const masonryBreakpoints = {
-  default: 3,
-  1170: 2,
-  768: 1
 }
 
 import * as S from './styles'
@@ -56,11 +48,9 @@ const Home = ({ userComments, socialComments }: HomeTemplateProps) => (
         <S.SectionTitle>O que estão falando nas redes sociais</S.SectionTitle>
 
         <S.SocialCommentsWrapper>
-          <Masonry breakpointCols={masonryBreakpoints} className="masonry-grid">
-            {socialComments.map((item) => (
-              <SocialComment key={item.name} {...item} />
-            ))}
-          </Masonry>
+          {socialComments.map((item) => (
+            <SocialComment key={item.name} {...item} />
+          ))}
         </S.SocialCommentsWrapper>
       </S.SectionSocialComments>
     )}
