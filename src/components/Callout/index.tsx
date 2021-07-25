@@ -30,7 +30,7 @@ const Callout = ({
 
     <MediaMatch greaterThan="medium">
       <S.ImageWrapper>
-        <S.Image src={image} alt={imageText} aria-label="Callout Image" />
+        <S.Image src={image} alt={imageText} />
       </S.ImageWrapper>
     </MediaMatch>
 

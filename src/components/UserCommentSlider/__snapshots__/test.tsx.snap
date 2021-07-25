@@ -493,7 +493,6 @@ exports[`<UserCommentSlider /> should render the slider 1`] = `
                   >
                     <img
                       alt="User Avatar"
-                      aria-label="User Avatar"
                       class="c9 c10"
                       src="/img/users/patricia_godoy.jpeg"
                     />
@@ -557,7 +556,6 @@ exports[`<UserCommentSlider /> should render the slider 1`] = `
                   >
                     <img
                       alt="User Avatar"
-                      aria-label="User Avatar"
                       class="c9 c10"
                       src="/img/users/marcinho_ribeiro.jpeg"
                     />
@@ -621,7 +619,6 @@ exports[`<UserCommentSlider /> should render the slider 1`] = `
                   >
                     <img
                       alt="User Avatar"
-                      aria-label="User Avatar"
                       class="c9 c10"
                       src="/img/users/duque.jpg"
                     />

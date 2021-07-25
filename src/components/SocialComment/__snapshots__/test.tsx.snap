@@ -61,7 +61,6 @@ exports[`<SocialComment /> should render the heading 1`] = `
   >
     <img
       alt="User Avatar"
-      aria-label="User Avatar"
       class="c3"
       src="/img/sample-person.jpeg"
     />

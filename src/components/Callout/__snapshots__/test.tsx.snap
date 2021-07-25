@@ -123,7 +123,6 @@ exports[`<Callout /> should render the callout with default values 1`] = `
     >
       <img
         alt="Três mulheres abraçadas e sorrindo"
-        aria-label="Callout Image"
         class="c6 c7"
         src="/img/promo/callout.jpeg"
       />

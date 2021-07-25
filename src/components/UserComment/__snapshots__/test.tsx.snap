@@ -154,7 +154,6 @@ exports[`<UserComment /> should render an user comment correctly 1`] = `
     >
       <img
         alt="User Avatar"
-        aria-label="User Avatar"
         class="c5 c6"
         src="/img/sample-person.jpeg"
       />

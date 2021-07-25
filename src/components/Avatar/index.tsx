@@ -8,15 +8,14 @@ export type AvatarProps = {
 }
 
 const Avatar = ({
-  image,
+  image = '/img/user.jpg',
   borderColor = 'primary',
   borderWeight = 'normal',
   size = 'small'
 }: AvatarProps) => (
   <S.Avatar
-    src={image ? image : '/img/user.jpg'}
+    src={image}
     alt="User Avatar"
-    aria-label="User Avatar"
     borderColor={borderColor}
     borderWeight={borderWeight}
     size={size}

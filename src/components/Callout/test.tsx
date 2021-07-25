@@ -32,10 +32,9 @@ describe('<Callout />', () => {
       })
     ).toBeInTheDocument()
 
-    expect(screen.getByLabelText(/callout image/i)).toHaveAttribute(
-      'src',
-      '/img/promo/callout.jpeg'
-    )
+    expect(
+      screen.getByAltText(/três mulheres abraçadas e sorrindo/i)
+    ).toHaveAttribute('src', '/img/promo/callout.jpeg')
 
     expect(container.firstChild).toMatchSnapshot()
   })
