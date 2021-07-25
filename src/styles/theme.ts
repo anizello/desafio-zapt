@@ -12,7 +12,6 @@ export default {
     light: 300,
     regular: 400,
     medium: 500,
-    bold: 700,
     sizes: {
       xs: '1.2rem',
       small: '1.4rem',

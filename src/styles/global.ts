@@ -29,15 +29,6 @@ const GlobalStyles = createGlobalStyle`
         url('/fonts/inter-v3-latin-500.woff2') format('woff2');
   }
 
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Inter Bold'), local('Inter-Bold'),
-        url('/fonts/inter-v3-latin-700.woff2') format('woff2');
-  }
-
   * {
     margin: 0;
     padding: 0;
