@@ -8,7 +8,7 @@ export const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
 
-    ${media.lessThan('large')`
+    ${media.lessThan('huge')`
       padding-left: calc(${theme.grid.gutter});
       padding-right: calc(${theme.grid.gutter});
     `}
