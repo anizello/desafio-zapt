@@ -9,7 +9,7 @@ export type CallOutProps = {
   image?: string
   imageDirection?: 'left' | 'right'
   imageText?: string
-  details?: boolean
+  hasDetails?: boolean
 }
 
 const Callout = ({
@@ -19,7 +19,7 @@ const Callout = ({
   image,
   imageDirection = 'right',
   imageText,
-  details = false
+  hasDetails = false
 }: CallOutProps) => (
   <S.Wrapper imageDirection={imageDirection}>
     <S.ContentWrapper>
@@ -34,23 +34,23 @@ const Callout = ({
       </S.ImageWrapper>
     </MediaMatch>
 
-    {!!details && (
+    {!!hasDetails && (
       <S.Details>
-        <S.ShapePrimary
-          src="/img/layout/float-primary.svg"
-          aria-label="Shape Primary"
-        />
         <MediaMatch greaterThan="medium">
+          <S.ShapePrimary
+            src="/img/layout/float-primary.svg"
+            aria-label="Shape Primary"
+          />
           <S.ShapeCircle aria-label="Shape Circle" />
           <S.ShapeSemiCircle
             src="/img/layout/semi-circle.svg"
             aria-label="Shape Semi Circle"
           />
+          <S.ShapeSecondary
+            src="/img/layout/float-secondary.svg"
+            aria-label="Shape Secondary"
+          />
         </MediaMatch>
-        <S.ShapeSecondary
-          src="/img/layout/float-secondary.svg"
-          aria-label="Shape Secondary"
-        />
       </S.Details>
     )}
   </S.Wrapper>

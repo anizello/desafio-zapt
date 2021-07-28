@@ -79,10 +79,11 @@ export const ContentButtons = styled.div`
   `}
 `
 
-export const CalloutFooter = styled.p`
+export const CalloutFooter = styled.span`
   ${({ theme }) => css`
     color: ${theme.colors.gray};
     font-size: ${theme.font.sizes.small};
+    line-height: 2.4rem;
 
     margin-top: ${theme.spacings.base};
 

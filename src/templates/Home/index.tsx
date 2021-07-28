@@ -20,6 +20,7 @@ const Home = ({ userComments, socialComments }: HomeTemplateProps) => (
         subtitle="Para você aproveitar nossas oportunidades primeiro você precisa estar dentro de um grupo, estamos aqui para lhe ajudar."
         image="/img/promo/callout.jpeg"
         imageText="Três mulheres abraçadas e sorrindo"
+        hasDetails
       >
         <S.CalloutContent>
           <S.ContentTitle>O que você prefere?</S.ContentTitle>

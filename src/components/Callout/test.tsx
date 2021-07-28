@@ -62,7 +62,7 @@ describe('<Callout />', () => {
   })
 
   it('should render with details', () => {
-    render(<Callout {...props} details />)
+    render(<Callout {...props} hasDetails />)
 
     expect(screen.getByLabelText(/shape primary/i)).toBeInTheDocument()
     expect(screen.getByLabelText(/shape secondary/i)).toBeInTheDocument()

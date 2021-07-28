@@ -56,6 +56,7 @@ const GlobalStyles = createGlobalStyle`
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.base};
       letter-spacing: -0.01rem;
+      overflow-x: hidden;
     }
   `}
 `

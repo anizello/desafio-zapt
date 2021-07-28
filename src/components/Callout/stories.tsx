@@ -12,7 +12,7 @@ export default {
     image: '/img/promo/callout.jpeg',
     imageDirection: 'right',
     imageText: 'Três mulheres abraçadas e sorrindo',
-    details: false
+    hasDetails: false
   },
   argTypes: {
     imageText: {
@@ -35,7 +35,7 @@ export const WithDetails: Story<CallOutProps> = (args) => (
 )
 
 WithDetails.args = {
-  details: true,
+  hasDetails: true,
   children: <Button>Criar grupo</Button>
 }
 

@@ -23,25 +23,31 @@ const wrapperModifiers = {
 
     ${ShapePrimary} {
       top: -1.5rem;
-      right: -2.5rem;
-      transform: scaleX(-1);
+      left: -2.5rem;
     }
 
     ${ShapeSecondary} {
       bottom: -3rem;
-      left: -4rem;
-      transform: scaleX(-1);
+      right: -4rem;
     }
 
     ${ShapeSemiCircle} {
       bottom: 4rem;
       left: 5%;
       transform: scaleX(-1);
+
+      ${media.lessThan('large')`
+        bottom: 6rem;
+      `}
     }
 
     ${ShapeCircle} {
       top: 2rem;
       left: 20%;
+
+      ${media.lessThan('large')`
+        top: 4rem;
+      `}
     }
   `,
 
@@ -74,11 +80,19 @@ const wrapperModifiers = {
     ${ShapeSemiCircle} {
       bottom: 4rem;
       right: 5%;
+
+      ${media.lessThan('large')`
+        bottom: 6rem;
+      `}
     }
 
     ${ShapeCircle} {
       top: 2rem;
       right: 20%;
+
+      ${media.lessThan('large')`
+        top: 4rem;
+      `}
     }
   `
 }
@@ -102,13 +116,13 @@ export const ContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.84rem 4rem;
+    padding: 4rem 4rem;
 
     color: ${theme.colors.gray};
     z-index: ${theme.layers.base};
 
     ${media.greaterThan('small')`
-      padding: 2.3rem 5rem;
+      padding: 5rem 5rem;
     `}
 
     ${media.greaterThan('medium')`
