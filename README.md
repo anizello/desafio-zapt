@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.zapt.com.br/" target="_blank">
-    <img src="https://www.zapt.com.br/static/icons/pwa-512x512.png" height="96">
+    <img src="https://raw.githubusercontent.com/anizello/desafio-zapt/main/public/img/icon-512.png" height="96">
     <h2 align="center">Desafio Frontend Zapt 👨‍💻</h2>
   </a>
 </p>
